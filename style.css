@@ -1,0 +1,109 @@
+body {
+    background-image: url(assets/background.png);
+    margin-top: 200px;
+    margin-bottom: 100px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.fixed-header, .fixed-footer{
+    width: 120%;
+    position: fixed;        
+    background: #333;
+    padding: 10px;
+    color: #fff;
+}
+
+header {
+    background-color: white;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto; 
+}
+
+.fixed-header {
+    top: 0;
+}
+
+header > nav {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+  }
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+.leftimg {
+    float: left;
+    padding: 0 20px 20px 0;
+   }
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color:black;
+    text-decoration: underline;
+}
+
+#content {
+    background-color: white;
+    width: 40%;
+    padding: 2%
+}
+
+#connect {
+    background-color: white;
+    border: 1px white;
+    width: 25%;
+    height: 150px;
+    text-align: center;
+}
+    
+#parent {
+    display:flex;
+    justify-content: space-around;
+    
+  }
+
+#icons {
+    box-shadow: 10px 10px 5px gray;
+}
+
+footer {
+    padding: 10px;
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: auto;
+    text-align: center;
+}
+
+.fixed-footer {
+    bottom: 0;
+}
